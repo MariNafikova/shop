@@ -20,8 +20,8 @@ body {
 }
 
 .container {
-    @media (min-width:1600px) {
-        width: 1140px;
+    @media (min-width:1024px) {
+        // width: 1140px;
         margin: 0 auto;
     }
 }
@@ -92,7 +92,7 @@ body {
             margin-right: 42px;
         }
 
-        @media (min-width:1600px) {
+        @media (min-width:1024px) {
             margin-left: 33px;
             margin-right: 33px;
         }
@@ -134,7 +134,7 @@ body {
             width: 50%;
         }
 
-        @media (min-width:1600px) {
+        @media (min-width:1024px) {
             justify-content: start;
         }
     }
@@ -176,7 +176,7 @@ body {
             }
         }
 
-        @media (min-width:1600px) {
+        @media (min-width:1024px) {
             height: 92px;
 
             & p:first-child {
@@ -288,7 +288,7 @@ body {
         }
     }
 
-    @media (min-width:1600px) {
+    @media (min-width:1024px) {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 260px 180px;
         gap: 30px;
@@ -342,7 +342,7 @@ body {
         margin-bottom: 65px;
     }
 
-    @media (min-width:1600px) {
+    @media (min-width:1024px) {
         margin-top: 32px;
         margin-bottom: 95px;
     }
@@ -355,7 +355,7 @@ body {
         color: #222222;
         margin-bottom: 3px;
 
-        @media (min-width:1600px) {
+        @media (min-width:1024px) {
             margin-bottom: 6px;
         }
     }
@@ -372,7 +372,7 @@ body {
             margin-bottom: 73px;
         }
 
-        @media (min-width:1600px) {
+        @media (min-width:1024px) {
             margin-bottom: 48px;
         }
     }
@@ -389,7 +389,7 @@ body {
             column-gap: 16px;
         }
 
-        @media (min-width:1600px) {
+        @media (min-width:1024px) {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 30px;
@@ -482,7 +482,7 @@ body {
             margin-top: 33px;
         }
 
-        @media (min-width:1600px) {
+        @media (min-width:1024px) {
             margin-top: 48px;
         }
 
@@ -510,13 +510,15 @@ body {
         padding-bottom: 64px;
     }
 
-    @media (min-width:1600px) {
+    @media (min-width:1024px) {
         padding-bottom: 104px;
 
         & .container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             column-gap: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
     }
 
@@ -526,7 +528,7 @@ body {
         flex-direction: column;
         align-items: center;
 
-        @media (min-width:1600px) {
+        @media (min-width:1024px) {
             padding-top: 103px;
         }
     }
@@ -561,7 +563,7 @@ body {
 .subscribe {
     display: flex;
     justify-content: center;
-    background-image: url(img/subscrubeBgr.png);
+    background-image: url(public/img/subscrubeBgr.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 64px;
@@ -1057,20 +1059,20 @@ body {
     }
 
     &LeftArrow {
-        background-image: url(img/catalog/leftArrow.svg);
+        background-image: url(public/img/catalog/leftArrow.svg);
         left: 0;
 
         &:hover {
-            background-image: url(img/catalog/leftArrowHover.svg);
+            background-image: url(public/img/catalog/leftArrowHover.svg);
         }
     }
 
     &RightArrow {
-        background-image: url(img/catalog/rightArrow.svg);
+        background-image: url(public/img/catalog/rightArrow.svg);
         right: 0;
 
         &:hover {
-            background-image: url(img/catalog/rightArrowHover.svg);
+            background-image: url(public/img/catalog/rightArrowHover.svg);
         }
     }
 }
@@ -1400,7 +1402,7 @@ body {
             position: absolute;
             right: 12px;
             top: 17px;
-            background: url(img/close.png) no-repeat;
+            background: url(public/img/close.png) no-repeat;
             background-size: 100%;
 
             @media (min-width: 768px) {

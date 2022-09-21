@@ -1,44 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Интернет-магазин</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <div class="logo">E-shop</div>
-        <div class="cart">
-            <form action="#" class="search-form">
-                <input type="text" class="search-field">
-                <button class="btn-search" type="submit">
-                    <i class="fas fa-search"></i>
-                </button>
-            </form>
-            <button class="btn-cart" type="button">Корзина</button>
-            <div class="cart-block invisible"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Интернет-магазин</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="app">
+          <header>
+            <div class="container">
+              <div class="headerLeft">
+                <img class="logo" src="../public/img/logo.png" alt="">
+                <img src="../public/img/search.png" alt="">
+              </div>
+              <div class="headerRight">
+                <img class="iconMenu" src="../public/img/menu.png" alt="">
+                <img class="iconUser" src="../public/img/user.png" alt="">
+                <span class="iconCartWrap">
+                                 <img class="iconCart" src="../public/img/cart.png" alt="">
+                            </span>
+              </div>
+            </div>
+            <!-- <div class="logo">MyShop</div>
+            <filtered></filtered>
+            <div class="cart">
+                <cart ref="cart"></cart>
+            </div> -->
+          </header>
+          <div class="brandWrap">
+            <div class="brandWrapInside">
+              <div class="brandLeft">
+                <img class="brandImage" src="../public/img/brand_photo.png" alt="img">
+              </div>
+              <div class="brandRight">
+                <div class="brandText">
+                  <p> THE BRAND </p>
+                  <p>OF LUXERIOUS
+                    <span>FASHION</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="featured container">
+            <p class="featuredHeader">Fetured Items</p>
+            <p class="featuredTitle">Shop for items based on what we featured in this week</p>
+            <div class="featuredItems">
+              <div class="featuredCard">
+                <div class="featuredCardImg">
+                  <img class="featuredImg" src="../public/img/featuredImg1.png" alt="featured image">
+                  <div class="featuredImgDark">
+                    <button class="featuredImgDarkButton">
+                      <img src="../../public/img/cart.svg" alt="">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="featuredData">
+                  <div class="featuredName">
+                    ELLERY X M'O CAPSULE
+                  </div>
+                  <div class="featuredText">
+                    Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                    Ellery
+                    teams
+                    up with Moda Operandi.
+                  </div>
+                  <div class="featuredPrice">
+                    $52.00
+                  </div>
+                </div>
+              </div>
+              <div class="featuredCard">
+                <div class="featuredCardImg">
+                  <img class="featuredImg" src="../public/img/featuredImg2.png" alt="featured image">
+                  <div class="featuredImgDark">
+                    <button class="featuredImgDarkButton">
+                      <img src="../../public/img/cart.svg" alt="">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="featuredData">
+                  <div class="featuredName">
+                    ELLERY X M'O CAPSULE
+                  </div>
+                  <div class="featuredText">
+                    Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                    Ellery
+                    teams
+                    up with Moda Operandi.
+                  </div>
+                  <div class="featuredPrice">
+                    $52.00
+                  </div>
+                </div>
+              </div>
+              <div class="featuredCard">
+                <div class="featuredCardImg">
+                  <img class="featuredImg" src="../public/img/featuredImg3.png" alt="featured image">
+                  <div class="featuredImgDark">
+                    <button class="featuredImgDarkButton">
+                      <img src="../../public/img/cart.svg" alt="">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="featuredData">
+                  <div class="featuredName">
+                    ELLERY X M'O CAPSULE
+                  </div>
+                  <div class="featuredText">
+                    Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                    Ellery
+                    teams
+                    up with Moda Operandi.
+                  </div>
+                  <div class="featuredPrice">
+                    $52.00
+                  </div>
+                </div>
+              </div>
+              <div class="featuredCard">
+                <div class="featuredCardImg">
+                  <img class="featuredImg" src="../public/img/featuredImg4.png" alt="featured image">
+                  <div class="featuredImgDark">
+                    <button class="featuredImgDarkButton">
+                      <img src="../../public/img/cart.svg" alt="">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="featuredData">
+                  <div class="featuredName">
+                    ELLERY X M'O CAPSULE
+                  </div>
+                  <div class="featuredText">
+                    Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                    Ellery
+                    teams
+                    up with Moda Operandi.
+                  </div>
+                  <div class="featuredPrice">
+                    $52.00
+                  </div>
+                </div>
+              </div>
+              <div class="featuredCard">
+                <div class="featuredCardImg">
+                  <img class="featuredImg" src="../public/img/featuredImg5.png" alt="featured image">
+                  <div class="featuredImgDark">
+                    <button class="featuredImgDarkButton">
+                      <img src="../../public/img/cart.svg" alt="">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="featuredData">
+                  <div class="featuredName">
+                    ELLERY X M'O CAPSULE
+                  </div>
+                  <div class="featuredText">
+                    Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                    Ellery
+                    teams
+                    up with Moda Operandi.
+                  </div>
+                  <div class="featuredPrice">
+                    $52.00
+                  </div>
+                </div>
+              </div>
+              <div class="featuredCard">
+                <div class="featuredCardImg">
+                  <img class="featuredImg" src="../public/img/featuredImg6.png" alt="featured image">
+                  <div class="featuredImgDark">
+                    <button class="featuredImgDarkButton">
+                      <img src="../../public/img/cart.svg" alt="">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="featuredData">
+                  <div class="featuredName">
+                    ELLERY X M'O CAPSULE
+                  </div>
+                  <div class="featuredText">
+                    Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                    Ellery
+                    teams
+                    up with Moda Operandi.
+                  </div>
+                  <div class="featuredPrice">
+                    $52.00
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="service">
+            <div class="container">
+              <div class="serviceBlock">
+                <img src="../public/img/serviceImg1.png" alt="img">
+                <div class="serviceTitle">Free Delivery</div>
+                <div class="serviceText">Worldwide delivery on all. Authoritatively morph next-generation
+                  innovation
+                  with
+                  extensive models.
+                </div>
+              </div>
+              <div class="serviceBlock">
+                <img src="../public/img/serviceImg2.png" alt="img">
+                <div class="serviceTitle">Sales & discounts</div>
+                <div class="serviceText">Worldwide delivery on all. Authoritatively morph next-generation
+                  innovation
+                  with
+                  extensive models.
+                </div>
+              </div>
+              <div class="serviceBlock">
+                <img src="../public/img/serviceImg3.png" alt="img">
+                <div class="serviceTitle">Quality assurance</div>
+                <div class="serviceText ">Worldwide delivery on all. Authoritatively morph next-generation
+                  innovation
+                  with
+                  extensive models.
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer>
+        <div class="container">
+          <div class="footerRight">
+            <a href="https://en.wikipedia.org/wiki/Facebook" target="_blank"><img src="../public/img/facebook.png"
+                                                                                  alt="facebook"></a>
+            <a href="https://en.wikipedia.org/wiki/Instagram" target="_blank"><img src="../public/img/instagram.png"
+                                                                                   alt="instagram"></a>
+            <a href="https://www.pinterest.ru/" target="_blank"><img src="../public/img/pinterest.png"
+                                                                     alt="pinterest"></a>
+            <a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B2%D0%B8%D1%82%D1%82%D0%B5%D1%80"
+               target="_blank"><img src="../public/img/twitter.png" alt=""></a>
+          </div>
+          <div class="footerLeft">
+            <p>© 2022 Brand All Rights Reserved</p>
+          </div>
         </div>
-    </header>
-    <main>
-        <div class="products"></div>
-    </main>
-    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-</body>
+      </footer>
+<!--          <main>-->
+<!--            <products ref="products"></products>-->
+<!--            <error></error>-->
+<!--          </main>-->
+        </div>
+        <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+        <script src="js/ProductComponent.js"></script>
+        <script src="js/CartComponent.js"></script>
+        <script src="js/FilteredComponent.js"></script>
+        <script src="js/ErrorComponent.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
-
-<!--<div class="cart-item" data-id="${this.id_product}">-->
-    <!--<div class="product-bio">-->
-        <!--<img src="${this.img}" alt="Some image">-->
-        <!--<div class="product-desc">-->
-            <!--<p class="product-title">${this.product_name}</p>-->
-            <!--<p class="product-quantity">Quantity: ${this.quantity}</p>-->
-            <!--<p class="product-single-price">$${this.price} each</p>-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<div class="right-block">-->
-        <!--<p class="product-price">${this.quantity*this.price}</p>-->
-        <!--<button class="del-btn" data-id="${this.id_product}">&times;</button>-->
-    <!--</div>-->
-<!--</div>-->
