@@ -1,44 +1,44 @@
 [
   {
-    "id_product": 11,
-    "product_name": "Milk bowl",
-    "img_product": "img/product_1.jpg",
-    "price": 7500
+    "productId": 1,
+    "productName": "JACKET",
+    "productImage": "img/product_1.png",
+    "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
+    "productPrice": 52.00
   },
   {
-    "id_product": 12,
-    "product_name": "cappuccino set",
-    "img_product": "img/product_2.jpg",
-    "price": 12800
+    "productId": 2,
+    "productName": "SUIT",
+    "productImage": "img/product_2.png",
+    "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
+    "productPrice": 50.00
   },
   {
-      "id_product": 13,
-      "product_name": "contour vase",
-      "img_product": "img/product_3.jpg",
-      "price": 5380
-    },
-    {
-      "id_product": 14,
-      "product_name": "lamp drop",
-      "img_product": "img/product_4.jpg",
-      "price": 10100
-    },
-    {
-      "id_product": 15,
-      "product_name": "Golden lamp",
-      "img_product": "img/product_5.jpg",
-      "price": 6000
-    },
-    {
-      "id_product": 16,
-      "product_name": "Golden chair",
-      "img_product": "img/product_6.jpg",
-      "price": 37000
-    },
-    {
-      "id_product": 17,
-      "product_name": "rope set for photos",
-      "img_product": "img/product_7.jpg",
-      "price": 3500
-    }
+    "productId": 3,
+    "productName": "SWEATSHIRT",
+    "productImage": "img/product_3.png",
+    "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
+    "productPrice": 35.00
+  },
+  {
+    "productId": 4,
+    "productName": "TROUSERS",
+    "productImage": "img/product_4.png",
+    "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
+    "productPrice": 30.00
+  },
+  {
+    "productId": 5,
+    "productName": "JACKET",
+    "productImage": "img/product_5.png",
+    "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
+    "productPrice": 40.00
+  },
+  {
+    "productId": 6,
+    "productName": "BLOUSE",
+    "productImage": "img/product_6.png",
+    "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
+    "productPrice": 25.00
+  }
 ]
