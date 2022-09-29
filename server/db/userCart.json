@@ -7,7 +7,7 @@
             "productName": "JACKET",
             "productImage": "img/product_1.png",
             "productPrice": 52,
-            "quantity": 5
+            "quantity": 4
         },
         {
             "productId": 4,
@@ -21,30 +21,31 @@
             "productName": "BLOUSE",
             "productImage": "img/product_6.png",
             "productPrice": 25,
-            "quantity": 2
+            "quantity": 3
         },
         {
+            "quantity": 5,
             "productId": 2,
             "productName": "SUIT",
             "productImage": "img/product_2.png",
-            "productPrice": 50,
-            "quantity": 22
-        },
-        {
-            "quantity": 1,
-            "productId": 3,
-            "productName": "SWEATSHIRT",
-            "productImage": "img/product_3.png",
             "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
-            "productPrice": 35
+            "productPrice": 50
         },
         {
-            "quantity": 3,
+            "quantity": 4,
             "productId": 5,
             "productName": "JACKET",
             "productImage": "img/product_5.png",
             "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
             "productPrice": 40
+        },
+        {
+            "quantity": 3,
+            "productId": 3,
+            "productName": "SWEATSHIRT",
+            "productImage": "img/product_3.png",
+            "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
+            "productPrice": 35
         }
     ]
 }
