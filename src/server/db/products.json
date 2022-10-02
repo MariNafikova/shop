@@ -1,0 +1,44 @@
+[
+  {
+    "productId": 1,
+    "productName": "JACKET",
+    "productImage": "https://mari-nafikova.ru/images/product_1.png",
+    "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
+    "productPrice": 52
+  },
+  {
+    "productId": 2,
+    "productName": "SUIT",
+    "productImage": "https://mari-nafikova.ru/images/product_2.png",
+    "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
+    "productPrice": 50
+  },
+  {
+    "productId": 3,
+    "productName": "SWEATSHIRT",
+    "productImage": "https://mari-nafikova.ru/images/product_3.png",
+    "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
+    "productPrice": 35
+  },
+  {
+    "productId": 4,
+    "productName": "TROUSERS",
+    "productImage": "https://mari-nafikova.ru/images/product_4.png",
+    "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
+    "productPrice": 30
+  },
+  {
+    "productId": 5,
+    "productName": "BLAZER",
+    "productImage": "https://mari-nafikova.ru/images/product_5.png",
+    "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
+    "productPrice": 40.00
+  },
+  {
+    "productId": 6,
+    "productName": "BLOUSE",
+    "productImage": "https://mari-nafikova.ru/images/product_6.png",
+    "productText": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym\nEllery\n teams\n up with Moda Operandi.",
+    "productPrice": 25.00
+  }
+]
